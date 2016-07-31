@@ -1,0 +1,66 @@
+[31-Jul-2016 16:46:38 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/canadiya/public_html/giris.php on line 20
+[31-Jul-2016 16:47:59 Europe/Istanbul] PHP Parse error:  syntax error, unexpected end of file in /home/canadiya/public_html/giris.php on line 20
+[31-Jul-2016 16:49:56 Europe/Istanbul] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/canadiya/public_html/giris.php on line 17
+[31-Jul-2016 18:49:58 Europe/Istanbul] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/canadiya/public_html/kaydet.php on line 3
+[31-Jul-2016 18:49:58 Europe/Istanbul] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/canadiya/public_html/kaydet.php on line 3
+[31-Jul-2016 18:49:58 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/canadiya/public_html/kaydet.php on line 3
+[31-Jul-2016 18:50:22 Europe/Istanbul] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/canadiya/public_html/kaydet.php on line 3
+[31-Jul-2016 18:50:22 Europe/Istanbul] PHP Warning:  require(connection.php): failed to open stream: No such file or directory in /home/canadiya/public_html/kaydet.php on line 3
+[31-Jul-2016 18:50:22 Europe/Istanbul] PHP Fatal error:  require(): Failed opening required 'connection.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/canadiya/public_html/kaydet.php on line 3
+[31-Jul-2016 23:26:12 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 45
+[31-Jul-2016 23:26:14 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 45
+[31-Jul-2016 23:27:19 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 45
+[31-Jul-2016 23:27:53 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 45
+[31-Jul-2016 23:27:55 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 45
+[31-Jul-2016 23:28:44 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 46
+[31-Jul-2016 23:28:45 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 46
+[31-Jul-2016 23:28:46 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 46
+[31-Jul-2016 23:28:47 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 46
+[31-Jul-2016 23:28:47 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 46
+[31-Jul-2016 23:29:07 Europe/Istanbul] PHP Warning:  Illegal string offset 'screen_name' in /home/canadiya/public_html/index.php on line 46
+[31-Jul-2016 23:29:46 Europe/Istanbul] PHP Warning:  Illegal string offset 'screen_name' in /home/canadiya/public_html/index.php on line 47
+[31-Jul-2016 23:30:18 Europe/Istanbul] PHP Warning:  Illegal string offset 'screen_name' in /home/canadiya/public_html/index.php on line 47
+[31-Jul-2016 23:31:04 Europe/Istanbul] PHP Fatal error:  Class 'TwitterOAuth' not found in /home/canadiya/public_html/newtweet.php on line 7
+[31-Jul-2016 23:32:46 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/newtweet.php on line 15
+[31-Jul-2016 23:34:35 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/newtweet.php on line 15
+[31-Jul-2016 23:35:58 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/index.php on line 47
+[31-Jul-2016 23:50:15 Europe/Istanbul] PHP Parse error:  syntax error, unexpected ')' in /home/canadiya/public_html/newtweet.php on line 18
+[01-Aug-2016 00:19:05 Europe/Istanbul] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 249
+[01-Aug-2016 00:19:58 Europe/Istanbul] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 249
+[01-Aug-2016 00:20:41 Europe/Istanbul] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 249
+[01-Aug-2016 00:29:04 Europe/Istanbul] PHP Warning:  file_get_contents(Jellyfish.jpg): failed to open stream: No such file or directory in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 249
+[01-Aug-2016 00:30:28 Europe/Istanbul] PHP Fatal error:  Uncaught exception 'Abraham\TwitterOAuth\TwitterOAuthException' with message 'Operation timed out after 5000 milliseconds with 0 bytes received' in /home/canadiya/public_html/twapp/src/TwitterOAuth.php:403
+Stack trace:
+#0 /home/canadiya/public_html/twapp/src/TwitterOAuth.php(334): Abraham\TwitterOAuth\TwitterOAuth->request('https://upload....', 'POST', 'Authorization: ...', Array)
+#1 /home/canadiya/public_html/twapp/src/TwitterOAuth.php(305): Abraham\TwitterOAuth\TwitterOAuth->oAuthRequest('https://upload....', 'POST', Array)
+#2 /home/canadiya/public_html/twapp/src/TwitterOAuth.php(252): Abraham\TwitterOAuth\TwitterOAuth->http('POST', 'https://upload....', 'media/upload', Array)
+#3 /home/canadiya/public_html/twapp/src/TwitterOAuth.php(235): Abraham\TwitterOAuth\TwitterOAuth->uploadMediaNotChunked('media/upload', Array)
+#4 /home/canadiya/public_html/newimagetweet.php(19): Abraham\TwitterOAuth\TwitterOAuth->upload('media/upload', Array)
+#5 {main}
+  thrown in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 403
+[01-Aug-2016 00:58:32 Europe/Istanbul] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 249
+[01-Aug-2016 01:00:17 Europe/Istanbul] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/canadiya/public_html/twapp/src/TwitterOAuth.php on line 249
+[01-Aug-2016 01:09:22 Europe/Istanbul] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/canadiya/public_html/get_user_timeline.php on line 28
+[01-Aug-2016 01:09:46 Europe/Istanbul] PHP Fatal error:  Cannot use object of type stdClass as array in /home/canadiya/public_html/get_user_timeline.php on line 28
+[01-Aug-2016 01:10:29 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/canadiya/public_html/get_user_timeline.php on line 25
+[01-Aug-2016 01:10:29 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/get_user_timeline.php on line 27
+[01-Aug-2016 01:10:41 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/canadiya/public_html/get_user_timeline.php on line 25
+[01-Aug-2016 01:10:41 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/get_user_timeline.php on line 27
+[01-Aug-2016 01:10:57 Europe/Istanbul] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/canadiya/public_html/get_user_timeline.php on line 25
+[01-Aug-2016 01:11:36 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/get_user_timeline.php on line 27
+[01-Aug-2016 01:51:22 Europe/Istanbul] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/canadiya/public_html/search.php on line 39
+[01-Aug-2016 01:53:37 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 40
+[01-Aug-2016 01:54:31 Europe/Istanbul] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 01:55:04 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 01:55:06 Europe/Istanbul] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 01:55:29 Europe/Istanbul] PHP Parse error:  syntax error, unexpected ''0'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 01:58:01 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 40
+[01-Aug-2016 01:58:38 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 40
+[01-Aug-2016 02:00:58 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 40
+[01-Aug-2016 02:04:03 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 02:04:29 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 02:04:31 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 02:04:33 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 02:04:34 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 02:05:00 Europe/Istanbul] PHP Warning:  Invalid argument supplied for foreach() in /home/canadiya/public_html/search.php on line 42
+[01-Aug-2016 02:05:16 Europe/Istanbul] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/canadiya/public_html/search.php on line 43
